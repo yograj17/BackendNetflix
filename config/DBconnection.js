@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const DBConnection = () => {
   mongoose
     .connect(
-      "mongodb+srv://yograjpatil777:stCKXtumTav6zRi5@cluster0.ja8l4.mongodb.net/NetflixData"
+      "mongodb+srv://netflix:netflix%40123@cluster0.cnzhp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/NetflixData"
     )
     .then(() => {
       console.log("DB Connected");
