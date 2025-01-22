@@ -9,7 +9,7 @@ DB();
 
 // Configure CORS
 const corsOptions = {
-  origin: "https://your-frontend-domain.com", // Replace with your frontend's URL
+  origin: "https://yog-jioni.onrender.com", // Replace with your frontend's URL
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
   credentials: true, // Allow cookies and other credentials
